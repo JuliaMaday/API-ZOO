@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Zoológico Unix</title>
+    <style>
+        .naranja {
+            background-color: #f8ba35;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div data-role="panel" id="menuPanel">
+        <h3>Menú</h3>
+        <ul data-role="listview">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#pasteles">Animales</a></li>
+            <li><a href="#pedidos">Registros</a></li>
+        </ul>
+    </div>
+
+    <div data-role="page" id="inicio">
+        <div data-role="header">
+            <h1>Zoológico Unix</h1>
+            <a href="#menuPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+
+        <div data-role="content" style="background-color: #efeb2d; text-align: center;">
+            <div style="text-align: center;">
+                <img src="https://parquesalegres.org/wp-content/uploads/2017/06/Zoologicos-Beneficio2.jpg"
+                    style="width: 1060px; margin: 10px;">
+                <p>En nuestro zoológico Unix, te invitamos a explorar y descubrir la belleza y el asombro de la vida
+                    salvaje.<br>
+
+                    Con más de 3 especies de animales de todos los rincones del mundo, desde majestuosos leones hasta
+                    ágiles monos, desde imponentes elefantes hasta coloridas aves tropicales, cada paso que des en
+                    nuestro
+                    zoológico te llevará a un nuevo encuentro emocionante.<br>
+
+                    Nuestro compromiso con la conservación, la educación y el bienestar animal es el corazón de todo lo
+                    que
+                    hacemos. A través de programas de conservación y cuidado experto de nuestros
+                    animales, trabajamos incansablemente para inspirar a las generaciones presentes y futuras a
+                    apreciar,
+                    respetar y proteger nuestro mundo natural.<br>
+
+                    Ya sea que estés buscando una aventura en familia, una escapada educativa o simplemente un día de
+                    diversión entre amigos, el zoológico Unix es el destino perfecto para ti. <br><br>
+                    ¡Únete a nosotros y déjate sorprender por la magia de la vida animal!
+                </p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.G1W_foMUe5pf5iQxbSOL6wHaE8&pid=Api&P=0&h=180"
+                    style="width: 500px; margin: 10px;">
+                <img src="https://www.sedema.cdmx.gob.mx/storage/app/uploads/public/5d1/e8d/0d6/5d1e8d0d6f54b035049587.jpg"
+                    style="width: 500px; margin: 10px;">
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h5>Contacto</h5>
+        </div>
+
+        <div class="naranja" style="text-align: center;">
+            <p>Horarios: lunes a viernes de 10:30 a 4:30</p>
+            <p>Teléfono: (55)19-58-14-57</p>
+            <p>Av. Paseo del Zoológico Unix, Guadalajara, Jalisco</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="pasteles">
+        <div data-role="header">
+            <h1>Animales</h1>
+            <a href="#menuPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>León</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.oZd8aOoIpxQTARN1mAnT5gHaE6&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Zorros</p>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.I8F_Ea-FKK2wyY3JscaA7QHaE8&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Rinoceronte</p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.BM67jEHiun5ldIRKNORVlQHaE5&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Cebras</p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.wi48wAG14-11oOOwM5kavQHaFj&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div><br>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Panteras</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.RMv7ih5z1M9MGfbOdVYszQHaFj&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Elefantes</p>
+                <img src="http://4.bp.blogspot.com/-VjYlpZi-Uj8/TiGB-AmSElI/AAAAAAAAHuA/l2KlBv2C2ZA/s1600/animales-de-la-selva-elefante.jpg"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;">
+                <p>Jirafas</p>
+                <img src="http://1.bp.blogspot.com/-A30OhWk6jNY/Ui0EhkudqbI/AAAAAAAB44o/z-1ugVzQAuk/s1600/jirafa-en-las-dunas-del-desierto-animales-de-africa-.jpg"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Tucán</p>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.wpgmlLMw9CW1LBaOmmc6jQHaFj&pid=Api&P=0&h=180"
+                    style="width: 180px;">
+            </div><br>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Koalas</p>
+                <img src="https://animalesmascotas.com/wp-content/uploads/2020/02/los-animales-de-oceania-koala-istock.jpg"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Tigre</p>
+                <img src="https://www.mactualidad.com/wp-content/uploads/2013/06/fondo-pantalla-animal-salvaje-066.jpg"
+                    style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Conejos</p>
+                <img src="http://mural.uv.es/niegor/imagenes/granja2.jpg" style="width: 180px;">
+            </div>
+            <div style="margin: 10px; text-align: center; border: 1px solid #148166; border-radius: 10px; padding: 20px; width: 250px; background-color: #80efcc;;">
+                <p>Tortuga</p>
+                <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res60/24000/24413-Austin-Zoo.jpg"
+                    style="width: 180px;">
+            </div>
+        </div>
+    </div>
+
+        <div data-role="page" id="pedidos">
+            <div data-role="content" style="background-color: #efeb2d;">
+        
+                <div data-role="header">
+                    <h1>Registros</h1>
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#inicio" data-icon="home">Inicio</a></li>
+                            <li><a href="#pedidos" data-icon="eye">Animales</a></li>
+                            <li><a href="#pasteles" data-icon="user">Registros</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <form action="/" method="POST">
+                    <input type="text" name="barcode" id="txt_barcode" placeholder="Numero">
+                    <input type="text" name="description" id="txt_description" placeholder="De donde nos visita">
+                    <input type="number" name="stock" id="txt_stock" placeholder="personas que lo acompañan">
+                    <input type="date" name="expiredDate" id="txt_expired_date" placeholder="Fecha">
+                    <label for="flip-2">Activo</label>
+                    <select name="status" id="flip-2" data-role="slider">
+                        <option value="0">No</option>
+                        <option value="1">Si</option>
+                    </select>
+                    <button type="submit" id="submit-6" class="ui-shadow ui-btn ui-corner-all ui-mini">Guardar</button>
+                </form>
+                <div data-role="collapsibleset" data-filter="true" data-inset="true" id="collapsiblesetForFilter"
+                    data-input="#searchForCollapsibleSet">
+                    
+                    <% products.forEach((product)=>{ %>
+                        <div data-role="collapsible" data-filtertext="<%= product.description %>">
+                            <h3>
+                                <%= product.description %>
+                            </h3>
+                            <ul data-role="listview" data-inset="false">
+                                <li>Codigo de barras: <%= product.barcode %></li>
+                                <li>Descripción: <%= product.description %></li>
+                                <li>Stock: <%= product.stock %></li>
+                                <li>Fecha: <%= product.expiredDate %></li>
+                                <li>Estatus: <%= product.status %></li>
+                                <button><a style="text-decoration: none; color: black;" href="/<%= product.barcode %>">Editar</a></button>
+                                <button><a style="text-decoration: none; color: black;" href="/deleteOne/<%= product.barcode %>">Eliminar</a></button>
+                            </ul>
+                        </div>
+                    <% }) %>
+                   
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
